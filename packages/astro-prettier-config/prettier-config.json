@@ -1,0 +1,21 @@
+{
+  "endOfLine": "lf",
+  "importOrder": [
+    "^astro",
+    "^@astrojs",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@",
+    "",
+    "^[./]"
+  ],
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-astro",
+    "prettier-plugin-tailwindcss"
+  ],
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5"
+}

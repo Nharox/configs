@@ -1,0 +1,20 @@
+{
+  "name": "@nharox/astro-stylelint-config",
+  "version": "1.0.1",
+  "author": "Dominik Gallitzendörfer <hello@nharox.com>",
+  "main": "./stylelint-config.js",
+  "repository": "https://github.com/nharox/configs",
+  "license": "MIT",
+  "keywords": [
+    "astro",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "dependencies": {
+    "postcss-html": "^1.6.0",
+    "stylelint": "^16.3.1",
+    "stylelint-config-clean-order": "^5.4.2",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

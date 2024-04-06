@@ -1,0 +1,13 @@
+{
+  "name": "@nharox/astro-stylelint-config",
+  "version": "1.0.0",
+  "author": "Dominik Gallitzendörfer <hello@nharox.com>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "publish:astro-prettier-config": "npm publish --workspace @nharox/astro-prettier-config",
+    "publish:astro-stylelint-config": "npm publish --workspace @nharox/astro-stylelint-config",
+    "publish:next-prettier-config": "npm publish --workspace @nharox/next-prettier-config"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@nharox/astro-prettier-config",
+  "version": "1.6.1",
+  "author": "Dominik Gallitzendörfer <hello@nharox.com>",
+  "main": "./prettier-config.json",
+  "repository": "https://github.com/nharox/configs",
+  "license": "MIT",
+  "keywords": [
+    "astro",
+    "prettier",
+    "prettier-config"
+  ],
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "prettier-plugin-tailwindcss": "^0.5.13"
+  }
+}
