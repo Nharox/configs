@@ -1,5 +1,5 @@
 {
-  "name": "@nharox/astro-stylelint-config",
+  "name": "@nharox/configs",
   "version": "1.0.0",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
   "workspaces": [
