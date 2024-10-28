@@ -1,11 +1,15 @@
 {
   "endOfLine": "lf",
   "importOrder": [
+    "<TYPES>",
+    "<TYPES>^@/",
+    "<TYPES>^[./]",
+    "",
     "^astro",
     "^@astrojs",
     "<THIRD_PARTY_MODULES>",
     "",
-    "^@",
+    "^@/",
     "",
     "^[./]"
   ],

@@ -1,12 +1,15 @@
 {
   "endOfLine": "lf",
   "importOrder": [
+    "<TYPES>",
+    "<TYPES>^@/",
+    "<TYPES>^[./]",
+    "",
     "^react",
-    "react$",
     "^next",
     "<THIRD_PARTY_MODULES>",
     "",
-    "^@",
+    "^@/",
     "",
     "^[./]"
   ],
