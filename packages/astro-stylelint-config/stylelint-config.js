@@ -1,4 +1,3 @@
-const cleanOrderConfig = require('stylelint-config-clean-order');
 const { propertyGroups } = require('stylelint-config-clean-order');
 
 const propertiesOrder = propertyGroups.map((properties) => ({
@@ -10,24 +9,20 @@ const tailwindRules = {
   'at-rule-no-unknown': [
     true,
     {
-      ignoreAtRules: ['tailwind', 'layer', 'apply', 'config', 'screen'],
+      ignoreAtRules: ['apply', 'theme', 'utility'],
     },
   ],
   'function-no-unknown': [
     true,
     {
-      ignoreFunctions: ['theme', 'screen'],
+      ignoreFunctions: ['theme'],
     },
   ],
-  'order/order': [
-    [
-      ...cleanOrderConfig.rules['order/order'][0],
-      {
-        type: 'at-rule',
-        name: 'screen',
-        hasBlock: true,
-      },
-    ],
+  'media-query-no-invalid': [
+    true,
+    {
+      ignoreFunctions: ['theme'],
+    },
   ],
 };
 
