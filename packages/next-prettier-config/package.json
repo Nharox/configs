@@ -1,6 +1,6 @@
 {
   "name": "@nharox/next-prettier-config",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
   "main": "./prettier-config.json",
   "repository": "https://github.com/nharox/configs",
@@ -11,8 +11,8 @@
     "prettier-config"
   ],
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "prettier": "^3.4.2",
-    "prettier-plugin-tailwindcss": "^0.6.9"
+    "prettier-plugin-tailwindcss": "^0.6.10"
   }
 }
