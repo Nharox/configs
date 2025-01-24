@@ -9,7 +9,15 @@ const tailwindRules = {
   'at-rule-no-unknown': [
     true,
     {
-      ignoreAtRules: ['apply', 'theme', 'utility'],
+      ignoreAtRules: ['apply', 'custom-variant', 'theme', 'utility'],
+    },
+  ],
+  'declaration-property-value-no-unknown': [
+    true,
+    {
+      ignoreProperties: {
+        '/.+/': '/^--spacing/',
+      },
     },
   ],
   'function-no-unknown': [
@@ -33,6 +41,7 @@ module.exports = {
     'stylelint-config-clean-order',
   ],
   rules: {
+    'custom-property-pattern': null,
     'order/properties-order': [propertiesOrder],
     ...tailwindRules,
   },
