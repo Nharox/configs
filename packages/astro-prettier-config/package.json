@@ -1,6 +1,6 @@
 {
   "name": "@nharox/astro-prettier-config",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
   "main": "./prettier-config.json",
   "repository": "https://github.com/nharox/configs",
