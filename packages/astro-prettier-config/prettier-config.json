@@ -13,14 +13,9 @@
     "",
     "^[./]"
   ],
-  "plugins": [
-    "@ianvs/prettier-plugin-sort-imports",
-    "prettier-plugin-astro",
-    "prettier-plugin-tailwindcss"
-  ],
+  "plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-astro"],
   "semi": true,
   "singleQuote": true,
   "tabWidth": 2,
-  "tailwindStylesheet": "./src/styles/global.css",
   "trailingComma": "es5"
 }

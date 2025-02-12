@@ -35,4 +35,3 @@ npm install --save-dev @nharox/astro-prettier-config
 
 - [@ianvs/prettier-plugin-sort-imports](https://github.com/ianvs/prettier-plugin-sort-imports)
 - [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro/)
-- [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
