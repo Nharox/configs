@@ -9,6 +9,7 @@
     "publish:astro-prettier-config": "npm publish --workspace @nharox/astro-prettier-config",
     "publish:astro-stylelint-config": "npm publish --workspace @nharox/astro-stylelint-config",
     "publish:next-prettier-config": "npm publish --workspace @nharox/next-prettier-config",
-    "publish:next-stylelint-config": "npm publish --workspace @nharox/next-stylelint-config"
+    "publish:next-stylelint-config": "npm publish --workspace @nharox/next-stylelint-config",
+    "publish:postcss-config": "npm publish --workspace @nharox/postcss-config"
   }
 }
