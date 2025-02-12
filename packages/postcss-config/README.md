@@ -15,5 +15,6 @@ npm install --save-dev @nharox/postcss-config
 ## PostCSS Plugins
 
 - [@csstools/postcss-global-data](https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-global-data)
+- [postcss-functions](https://github.com/andyjansson/postcss-functions)
 - [postcss-import](https://github.com/postcss/postcss-import)
 - [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env)
