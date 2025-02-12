@@ -15,6 +15,9 @@ export default (files = [], additionalPlugins = {}) => {
   };
 
   return {
-    plugins: [...defaultPlugins, ...additionalPlugins],
+    plugins: {
+      ...defaultPlugins,
+      ...additionalPlugins,
+    },
   };
 };
