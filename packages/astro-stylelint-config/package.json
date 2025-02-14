@@ -1,6 +1,7 @@
 {
   "name": "@nharox/astro-stylelint-config",
-  "version": "2.1.0",
+  "type": "module",
+  "version": "2.1.1",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
   "main": "./stylelint-config.js",
   "repository": "https://github.com/nharox/configs",
