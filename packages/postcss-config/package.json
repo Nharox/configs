@@ -1,7 +1,7 @@
 {
   "name": "@nharox/postcss-config",
   "type": "module",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
   "main": "./postcss-config.js",
   "repository": "https://github.com/nharox/configs",

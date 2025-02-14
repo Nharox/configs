@@ -11,7 +11,13 @@ export default (files, additionalPlugins) => {
       },
     },
     'postcss-import': {},
-    'postcss-preset-env': {},
+    'postcss-preset-env': {
+      stage: false,
+      features: {
+        'custom-media-queries': true,
+        'custom-selectors': true,
+      },
+    },
   };
 
   let plugins = {
