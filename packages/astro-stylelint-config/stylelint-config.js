@@ -1,11 +1,11 @@
-const { propertyGroups } = require('stylelint-config-clean-order');
+import { propertyGroups } from 'stylelint-config-clean-order';
 
 const propertiesOrder = propertyGroups.map((properties) => ({
   emptyLineBefore: 'never',
   properties,
 }));
 
-module.exports = {
+export default {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-html/astro',
@@ -13,5 +13,13 @@ module.exports = {
   ],
   rules: {
     'order/properties-order': [propertiesOrder],
+    'declaration-property-value-no-unknown': [
+      true,
+      {
+        ignoreProperties: {
+          '/.+/': ['/^--alpha/', '/^--spacing/'],
+        },
+      },
+    ],
   },
 };
