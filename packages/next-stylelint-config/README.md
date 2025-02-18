@@ -4,13 +4,13 @@ Shared [Stylelint](https://stylelint.io/) config for [Next.js](https://nextjs.or
 
 ## Installation
 
-1. Install package as a dev dependency
+1. Install package as a dev dependency:
 
 ```bash
 npm install --save-dev @nharox/next-stylelint-config
 ```
 
-2. Update `package.json`
+2. Update `package.json`:
 
 ```js
 {
@@ -21,7 +21,7 @@ npm install --save-dev @nharox/next-stylelint-config
 }
 ```
 
-3. Add the following script in your `package.json`
+3. Add the following script in your `package.json`:
 
 ```js
 {

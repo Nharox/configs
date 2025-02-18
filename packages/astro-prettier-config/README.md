@@ -4,13 +4,13 @@ Shared [Prettier](https://prettier.io/) config for [Astro](https://astro.build/)
 
 ## Installation
 
-1. Install package as a dev dependency
+1. Install package as a dev dependency:
 
 ```bash
 npm install --save-dev @nharox/astro-prettier-config
 ```
 
-2. Update `package.json`
+2. Update `package.json`:
 
 ```js
 {
@@ -19,7 +19,7 @@ npm install --save-dev @nharox/astro-prettier-config
 }
 ```
 
-3. Add the following script in your `package.json`
+3. Add the following script in your `package.json`:
 
 ```js
 {

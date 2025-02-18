@@ -4,13 +4,29 @@ Shared [PostCSS](https://postcss.org/) config.
 
 ## Installation
 
-1. Install package as a dev dependency
+1. Install package as a dev dependency:
 
 ```bash
 npm install --save-dev @nharox/postcss-config
 ```
 
-🚧 WIP 🚧
+2. Create `postcss.config.js` at the root and add the following code:
+
+```js
+import getConfig from '@nharox/postcss-config';
+
+export default getConfig();
+```
+
+You can also pass an array for the `@csstools/postcss-global-data` plugin and an object containing additional PostCSS plugins.
+
+3. Make sure to set a custom property if you want to use the `--spacing()` function:
+
+```css
+:root {
+  --spacing: 0.25rem;
+}
+```
 
 ## PostCSS Plugins
 
