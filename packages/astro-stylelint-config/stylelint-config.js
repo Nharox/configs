@@ -13,6 +13,12 @@ export default {
   ],
   rules: {
     'order/properties-order': [propertiesOrder],
+    'selector-pseudo-class-no-unknown': [
+      true,
+      {
+        ignorePseudoClasses: ['global'],
+      },
+    ],
     'declaration-property-value-no-unknown': [
       true,
       {
