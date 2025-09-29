@@ -18,9 +18,18 @@ import getConfig from '@nharox/postcss-config';
 export default getConfig();
 ```
 
-You can also pass an array for the `@csstools/postcss-global-data` plugin and an object containing additional PostCSS plugins.
+3. (Optional) You can customize the config by passing an object:
 
-3. Make sure to set a custom property if you want to use the `--spacing()` function:
+```js
+export default getConfig({
+  // Files for `@csstools/postcss-global-data`
+  files: [],
+  // Additional PostCSS plugins
+  additionalPlugins: {},
+});
+```
+
+4. (Optional) Make sure to set a custom property if you want to use the `--spacing()` function:
 
 ```css
 :root {

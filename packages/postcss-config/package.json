@@ -1,7 +1,7 @@
 {
   "name": "@nharox/postcss-config",
   "type": "module",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
   "main": "./postcss-config.js",
   "repository": "https://github.com/nharox/configs",
@@ -11,9 +11,9 @@
     "postcss-config"
   ],
   "dependencies": {
-    "@csstools/postcss-global-data": "^3.0.0",
+    "@csstools/postcss-global-data": "^3.1.0",
     "postcss-functions": "^4.0.2",
-    "postcss-import": "^16.1.0",
-    "postcss-preset-env": "^10.1.4"
+    "postcss-import": "^16.1.1",
+    "postcss-preset-env": "^10.4.0"
   }
 }

@@ -2,7 +2,7 @@ const alpha = (color, percentage) =>
   `color-mix(in oklab, ${color} ${percentage}, transparent)`;
 const spacing = (multiplier) => `calc(var(--spacing) * ${multiplier})`;
 
-export default (files, additionalPlugins) => {
+export default ({ files = [], additionalPlugins = {} } = {}) => {
   const defaultPlugins = {
     'postcss-functions': {
       functions: {
