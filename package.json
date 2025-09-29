@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
+    "publish:astro-eslint-config": "npm publish --workspace @nharox/astro-eslint-config",
     "publish:astro-prettier-config": "npm publish --workspace @nharox/astro-prettier-config",
     "publish:astro-stylelint-config": "npm publish --workspace @nharox/astro-stylelint-config",
     "publish:next-prettier-config": "npm publish --workspace @nharox/next-prettier-config",
