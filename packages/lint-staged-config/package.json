@@ -1,0 +1,17 @@
+{
+  "name": "@nharox/lint-staged-config",
+  "type": "module",
+  "version": "1.0.0",
+  "author": "Dominik Gallitzendörfer <hello@nharox.com>",
+  "main": "./lint-staged-config.js",
+  "repository": "https://github.com/nharox/configs",
+  "license": "MIT",
+  "keywords": [
+    "lint-staged",
+    "lint-staged-config"
+  ],
+  "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.3"
+  }
+}
