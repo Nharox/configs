@@ -1,6 +1,6 @@
 {
   "name": "@nharox/astro-prettier-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
   "main": "./prettier-config.json",
   "repository": "https://github.com/nharox/configs",
@@ -11,8 +11,8 @@
     "prettier-config"
   ],
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
-    "prettier": "^3.5.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
+    "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1"
   }
 }
