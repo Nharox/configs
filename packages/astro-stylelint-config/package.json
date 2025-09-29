@@ -1,7 +1,7 @@
 {
   "name": "@nharox/astro-stylelint-config",
   "type": "module",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
   "main": "./stylelint-config.js",
   "repository": "https://github.com/nharox/configs",
@@ -13,9 +13,10 @@
   ],
   "dependencies": {
     "postcss-html": "^1.8.0",
-    "stylelint": "^16.14.1",
+    "stylelint": "^16.24.0",
     "stylelint-config-clean-order": "^7.0.0",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-standard": "^37.0.0"
+    "stylelint-config-standard": "^39.0.0",
+    "stylelint-use-logical": "^2.1.2"
   }
 }

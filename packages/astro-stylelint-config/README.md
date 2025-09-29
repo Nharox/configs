@@ -47,3 +47,7 @@ npm install --save-dev @nharox/astro-stylelint-config
 - [stylelint-config-clean-order](https://github.com/kutsan/stylelint-config-clean-order)
 - [stylelint-config-html](https://github.com/ota-meshi/stylelint-config-html)
 - [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+
+## Stylelint Plugins
+
+- [stylelint-use-logical](https://github.com/csstools/stylelint-use-logical)

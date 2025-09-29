@@ -11,7 +11,9 @@ export default {
     'stylelint-config-html/astro',
     'stylelint-config-clean-order',
   ],
+  plugins: ['stylelint-use-logical'],
   rules: {
+    'csstools/use-logical': true,
     'order/properties-order': [propertiesOrder],
     'selector-pseudo-class-no-unknown': [
       true,
