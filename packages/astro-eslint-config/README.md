@@ -18,7 +18,19 @@ import getConfig from '@nharox/astro-eslint-config';
 export default getConfig();
 ```
 
-3. (Optional) You can customize the config by passing an object:
+3. Add the following script in your `package.json`:
+
+```js
+{
+  // ...
+  "scripts": {
+    // ...
+    "eslint": "eslint --fix \"src/**/*.{astro,ts}\""
+  }
+}
+```
+
+4. (Optional) You can customize the config by passing an object:
 
 ```js
 export default getConfig({

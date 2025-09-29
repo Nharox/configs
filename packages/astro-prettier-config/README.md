@@ -26,7 +26,7 @@ npm install --save-dev @nharox/astro-prettier-config
   // ...
   "scripts": {
     // ...
-    "format": "prettier --write \"src/**/*.{astro,ts}\""
+    "prettier": "prettier --write \"src/**/*.{astro,ts}\""
   }
 }
 ```
