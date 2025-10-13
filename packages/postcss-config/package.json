@@ -1,9 +1,9 @@
 {
   "name": "@nharox/postcss-config",
   "type": "module",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
-  "main": "./postcss-config.js",
+  "main": "./config.js",
   "repository": "https://github.com/nharox/configs",
   "license": "MIT",
   "keywords": [

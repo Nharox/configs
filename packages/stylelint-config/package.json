@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
-  "main": "./stylelint-config.js",
+  "main": "./config.js",
   "repository": "https://github.com/nharox/configs",
   "license": "MIT",
   "keywords": [

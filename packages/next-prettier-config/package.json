@@ -1,8 +1,8 @@
 {
   "name": "@nharox/next-prettier-config",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "author": "Dominik Gallitzendörfer <hello@nharox.com>",
-  "main": "./prettier-config.json",
+  "main": "./config.json",
   "repository": "https://github.com/nharox/configs",
   "license": "MIT",
   "keywords": [
