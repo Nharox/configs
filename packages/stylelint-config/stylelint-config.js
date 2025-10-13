@@ -8,7 +8,7 @@ const propertiesOrder = propertyGroups.map((properties) => ({
 export default {
   extends: [
     'stylelint-config-standard',
-    'stylelint-config-html/astro',
+    'stylelint-config-html',
     'stylelint-config-clean-order',
   ],
   plugins: ['stylelint-use-logical'],

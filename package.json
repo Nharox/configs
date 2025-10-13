@@ -8,10 +8,10 @@
   "scripts": {
     "publish:astro-eslint-config": "npm publish --workspace @nharox/astro-eslint-config",
     "publish:astro-prettier-config": "npm publish --workspace @nharox/astro-prettier-config",
-    "publish:astro-stylelint-config": "npm publish --workspace @nharox/astro-stylelint-config",
     "publish:lint-staged-config": "npm publish --workspace @nharox/lint-staged-config",
     "publish:next-prettier-config": "npm publish --workspace @nharox/next-prettier-config",
     "publish:next-stylelint-config": "npm publish --workspace @nharox/next-stylelint-config",
-    "publish:postcss-config": "npm publish --workspace @nharox/postcss-config"
+    "publish:postcss-config": "npm publish --workspace @nharox/postcss-config",
+    "publish:stylelint-config": "npm publish --workspace @nharox/stylelint-config"
   }
 }

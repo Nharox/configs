@@ -1,13 +1,13 @@
-# @nharox/astro-stylelint-config
+# @nharox/stylelint-config
 
-Shared [Stylelint](https://stylelint.io/) config for [Astro](https://astro.build/) projects.
+Shared [Stylelint](https://stylelint.io/) config.
 
 ## Installation
 
 1. Install package as a dev dependency:
 
 ```bash
-npm install --save-dev @nharox/astro-stylelint-config
+npm install --save-dev @nharox/stylelint-config
 ```
 
 2. Update `package.json`:
@@ -16,7 +16,7 @@ npm install --save-dev @nharox/astro-stylelint-config
 {
   // ...
   "stylelint": {
-    "extends": "@nharox/astro-stylelint-config"
+    "extends": "@nharox/stylelint-config"
   }
 }
 ```
@@ -28,7 +28,7 @@ npm install --save-dev @nharox/astro-stylelint-config
   // ...
   "scripts": {
     // ...
-    "stylelint": "stylelint --fix \"src/**/*.{astro,css}\""
+    "stylelint": "stylelint --fix \"src/**/*.{astro,css,svelte}\""
   }
 }
 ```
@@ -38,7 +38,7 @@ npm install --save-dev @nharox/astro-stylelint-config
 ```js
 {
   // ...
-  "stylelint.validate": ["astro", "css", "postcss"]
+  "stylelint.validate": ["astro", "css", "postcss", "svelte"]
 }
 ```
 
